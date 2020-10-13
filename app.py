@@ -1,7 +1,7 @@
 from hashlib import sha256
 import json
 import time
-from flask_cors import CORS
+#from flask_cors import CORS
 from flask import Flask, request
 import requests
 
@@ -136,7 +136,7 @@ class Blockchain:
 
 
 app = Flask(__name__)
-CORS(app)
+#CORS(app)
 
 # the node's copy of blockchain
 blockchain = Blockchain()
@@ -325,4 +325,4 @@ def announce_new_block(block):
                       headers=headers)
 
 # Uncomment this line if you want to specify the port number in the code
-#app.run(debug=True, port=8000)
+app.run(debug=True, port=443)
