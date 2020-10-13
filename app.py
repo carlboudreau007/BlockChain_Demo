@@ -1,7 +1,7 @@
 from hashlib import sha256
 import json
 import time
-
+from flask_cors import CORS
 from flask import Flask, request
 import requests
 
@@ -136,6 +136,7 @@ class Blockchain:
 
 
 app = Flask(__name__)
+CORS(app)
 
 # the node's copy of blockchain
 blockchain = Blockchain()
