@@ -1,0 +1,6 @@
+{"author":"Roland","speech_text":"sister-in-law, Jill"}​​
+
+{"author":"Carl","mbr_id":"123456789","case_id":"987654321","activity_type":"Discharge","note":"This is a discharge note for a memer"}
+
+
+{"author":"Carl","Speech_text":"sister-in-law"}
